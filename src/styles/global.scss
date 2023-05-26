@@ -1,0 +1,8 @@
+@use './variables.scss';
+
+code,
+kbd,
+pre,
+samp {
+  font-family: variables.$monospace-font-family;
+}
