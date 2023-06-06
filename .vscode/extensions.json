@@ -1,3 +1,12 @@
 {
-  "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"]
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "firefox-devtools.vscode-firefox-debug",
+    "formulahendry.auto-complete-tag",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin"
+  ]
 }
