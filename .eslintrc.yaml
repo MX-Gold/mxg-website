@@ -97,3 +97,7 @@ rules:
     - error
     - inline
   # vue/block-lang
+
+  '@typescript-eslint/no-use-before-define':
+    - error
+    - nofunc

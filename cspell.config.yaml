@@ -2,10 +2,13 @@ version: 0.2
 language: en
 words:
   - materialdesignicons
+  - Metas
   - modyfi
   - pinia
+  - POCKETBASE
   - rushstack
   - vuetify
+  - vueuse
   - wdth
   - webfontloader
   - wght

@@ -4,16 +4,22 @@ const rootRoutes = [
   {
     path: '/',
     component: () => import('@/layouts/RootLayout.vue'),
+    redirect: { name: 'root.stocks' },
     children: [
       {
-        path: '',
-        name: 'Home',
-        component: () => import('@/pages/root/HomePage.vue'),
+        path: 'auth',
+        name: 'root.auth',
+        component: () => import('@/pages/root/AuthPage.vue'),
       },
       {
-        path: 'about',
-        name: 'About',
-        component: () => import('@/pages/root/AboutPage.vue'),
+        path: 'stocks',
+        name: 'root.stocks',
+        component: () => import('@/pages/root/StocksPage.vue'),
+      },
+      {
+        path: 'advices',
+        name: 'root.advices',
+        component: () => import('@/pages/root/AdvicesPage.vue'),
       },
     ],
   },

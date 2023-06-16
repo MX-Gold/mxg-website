@@ -11,6 +11,7 @@ registerPlugins(app)
 app.mount('#app')
 
 /* TODO:
+https://github.com/patmood/pocketbase-typegen
 https://github.com/unjs/unhead
 https://github.com/posva/unplugin-vue-router
 https://github.com/antfu/unplugin-vue-components
